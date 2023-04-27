@@ -10,7 +10,6 @@ import org.apache.hadoop.mapreduce.lib.input.FileInputFormat;
 import org.apache.hadoop.mapreduce.lib.output.FileOutputFormat;
 
 import java.io.IOException;
-import java.util.HashSet;
 import java.util.StringTokenizer;
 
 public class Exercise05 {
