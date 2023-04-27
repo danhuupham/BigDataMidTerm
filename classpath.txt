@@ -1,0 +1,3 @@
+set CP="%HADOOP_HOME%\share\hadoop\common\hadoop-common-3.3.4.jar;%HADOOP_HOME%\share\hadoop\mapreduce\hadoop-mapreduce-client-core-3.3.4.jar"
+set EX=Exercise01
+mkdir Classes\%EX% & javac -cp %CP% -d Classes/%EX% src/%EX%.java && jar -cvf Jars/%EX%.jar -C Classes/%EX% . && hadoop jar Jars\%EX%.jar %EX% /%EX%/Input /%EX%/Output
